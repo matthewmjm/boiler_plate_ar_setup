@@ -10,8 +10,8 @@ require 'rest-client'
 
 require_all 'lib'
 
-response = RestClient.get('https://rickandmortyapi.com/api/character/')
-data = JSON.parse(response)
+# response = RestClient.get('https://rickandmortyapi.com/api/character/')
+# data = JSON.parse(response)
 
-binding.pry
-0
+# binding.pry
+# 0
