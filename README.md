@@ -69,3 +69,15 @@ end
 1. Now can put a pry in environment.rb to run <ModelName>.all and see your seeds.
 
 Make sure your models inherit from `ActiveRecord::Base`
+
+
+
+** not included in original README
+be sure to include a .gitignore file
+containing:
+                db/*.sqlite3
+                db/*.db 
+
+STEPS IN CREATING A DATABASE:
+1. Create Migration   >$ rake db:create_migration NAME=create_cats_table
+2. Run Migration      >$ rake db:migrate               
